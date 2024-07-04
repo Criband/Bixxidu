@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth !important;
+}
+
+#imgLogo{
+    width: 60px;
+}
+
+.collapse li a{
+    margin-left: 190px;
+}
+
+.navbar{
+    background-color: black;
+}
+
+#inicio{
+    background-image: url(https://img.freepik.com/free-photo/happy-beautiful-asian-teen-woman-smile-with-red-gift-box-isolated-blue-background_74952-3487.jpg?t=st=1720074394~exp=1720077994~hmac=80de5e78c4bb06ae5df77379255f8f901e67081d840eafcc1073b4e05338632c&w=1380);
+    background-size: cover;
+}
+
+#inicio h2{
+    color: aliceblue;
+    margin-top: 100px;
+
+}
+
+#inicio p{
+    color: aliceblue;
+    
+}
+
+#acerca-img{
+    min-height: 100vh;
+    background-size: cover;
+}
+
+
+#productos{
+    background: linear-gradient(190deg, rgb(212, 51, 164) 0%, rgb(226, 226, 226) 100%);
+}
+
+#productos img{
+    margin-left: 100px;
+}
+
+#tazas h2{
+    margin: 50px;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#termos h2{
+    margin: 50px;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#souvenir h2{
+    margin: 50px;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.btn a img{
+    width: 100px;
+}
+
+.btn{
+    position: fixed;
+    z-index: 100;
+    top: 600px;
+}
+
+
+p{
+    font-family: "Montserrat";
+}
+
