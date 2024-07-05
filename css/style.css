@@ -82,3 +82,18 @@
 p{
     font-family: "Montserrat";
 }
+#contacto{
+    width: 75%;
+}
+@media only screen and (max-width:480px ){
+    .imagenst{
+        display: none;
+    }
+    #inicio{
+        background-image: none;
+        background-color: pink;
+    }
+    #contacto{
+        width: 100%;
+    }
+}
