@@ -130,3 +130,29 @@
     transition: 0.25s;
     margin: 5px;
   }
+
+  .placeholder{
+    width: 300px;
+    border-radius: 5px;
+  }
+
+  .img-1{
+    width: 400px;
+    height: 300px;
+  }
+
+  @media only screen and (max-width:480px ){
+    .principal .content {
+      width: 100%;
+      display: block;
+    }
+    .principal .content .content-img img {
+      width: 60%;
+      max-width: 900px;
+      margin-left: 15%;
+    }
+    .content{
+      text-align: center;
+    }
+    
+}
