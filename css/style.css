@@ -7,7 +7,10 @@
     list-style: none;
     scroll-behavior: smooth !important;
 }
-
+html{
+    margin: 0;
+    padding: 0;
+}
 #imgLogo{
     width: 60px;
 }
@@ -95,5 +98,15 @@ p{
     }
     #contacto{
         width: 100%;
+
     }
+}
+
+#contacto{
+    max-width: 150%;    
+    background-color: antiquewhite;
+}
+
+.card{
+    margin: 5px;
 }
